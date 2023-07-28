@@ -1,4 +1,4 @@
-package org.leetcode;
+package org.leetcode.solved;
 
 /*
 * Question:
@@ -10,12 +10,13 @@ package org.leetcode;
 
 public class MergeStringsAlternately {
     public static void main(String[] args) {
+        //Test
         String word1 = "abchjkl";
         String word2 = "pqrefg";
-        System.out.println(mergeAlternately(word1, word2));
+        System.out.println(solution(word1, word2));
     }
 
-    public static String mergeAlternately(String word1, String word2) {
+    public static String solution(String word1, String word2) {
         String[] word1Chars = word1.split("");
         String[] word2Chars = word2.split("");
         int lowerLength;

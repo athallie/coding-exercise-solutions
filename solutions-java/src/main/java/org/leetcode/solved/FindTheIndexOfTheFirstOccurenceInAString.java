@@ -1,4 +1,4 @@
-package org.leetcode;
+package org.leetcode.solved;
 
 /*Given two strings needle and haystack,
 return the index of the first occurrence of needle in haystack,
@@ -6,6 +6,7 @@ or -1 if needle is not part of haystack.*/
 
 public class FindTheIndexOfTheFirstOccurenceInAString {
     public static void main(String[] args) {
+        //Test
         System.out.println(solution("sadbutsad", "sad"));
         System.out.println(solution("leetcode", "leeto"));
     }
